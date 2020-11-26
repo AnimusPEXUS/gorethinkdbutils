@@ -1,6 +1,6 @@
 package rethinkdbutils
 
-type IndexListItem struct {
+type IndexStatus struct {
 	Index    *string  `gorethink:"index,omitempty"`
 	Ready    *bool    `gorethink:"ready,omitempty"`
 	Progress *float64 `gorethink:"progress,omitempty"`
