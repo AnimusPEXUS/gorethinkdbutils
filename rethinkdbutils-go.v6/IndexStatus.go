@@ -8,4 +8,5 @@ type IndexStatus struct {
 	Multi    *bool    `gorethink:"multi,omitempty"`
 	Geo      *bool    `gorethink:"geo,omitempty"`
 	Outdated *bool    `gorethink:"outdated,omitempty"`
+	Query    *string  `gorethink:"query,omitempty"`
 }
